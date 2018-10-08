@@ -1,0 +1,90 @@
+@import "common.scss";
+@import "_minix.scss";
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.warp {
+    width: 100%;
+    height: 100%;
+    @include box_flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: pxTorem(40px);
+    padding: 0 pxTorem(15px);
+    @include sizing;
+    dl {
+        width: 100%;
+        height: 100%;
+        @include box_flex;
+        // @include justify;
+        @include align;
+        dt {
+            img {
+                width: pxTorem(20px);
+                height: pxTorem(20px);
+            }
+        }
+        dd {
+            margin-left: pxTorem(20px);
+        }
+    }
+}
+
+section {
+    width: 100%;
+    flex: 1;
+    padding: pxTorem(15px);
+    @include sizing;
+    .con {
+        width: 100%;
+        padding: pxTorem(15px);
+        @include sizing;
+        margin-top: pxTorem(20px);
+    }
+    .cons {
+        border: 1px solid brown;
+    }
+    .top {
+        width: 100%;
+        padding: pxTorem(15px) 0;
+        border-bottom: 1px solid #ccc;
+        @include sizing;
+        @include box_flex;
+        justify-content: space-between;
+        span {
+            display: inline-block;
+            width: pxTorem(12px);
+            height: pxTorem(12px);
+            border: 1px solid #333;
+            border-radius: 50%;
+            margin-right: pxTorem(15px);
+        }
+        .active {
+            background: greenyellow;
+        }
+        p {
+            color: brown;
+        }
+    }
+    .list {
+        width: 100%;
+        @include box_flex;
+        flex-wrap: wrap;
+        margin-top: pxTorem(15px);
+        li {
+            margin-top: pxTorem(10px);
+            width: 50%;
+            float: left;
+            color: #ccc;
+            span {
+                color: #333;
+            }
+        }
+    }
+}
