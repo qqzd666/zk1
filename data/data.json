@@ -1,0 +1,25 @@
+[{
+    "name": "MySQL",
+    "cpu": "2核",
+    "tit": "4GB",
+    "day": "60天"
+
+}, {
+    "name": "My",
+    "cpu": "8核",
+    "tit": "8GB",
+    "day": "60天"
+
+}, {
+    "name": "BBQ",
+    "cpu": "2核",
+    "tit": "6GB",
+    "day": "60天"
+
+}, {
+    "name": "SQL",
+    "cpu": "4核",
+    "tit": "8GB",
+    "day": "30天"
+
+}]
