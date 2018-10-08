@@ -250,6 +250,7 @@ section .con {
   -o-box-sizing: border-box;
   box-sizing: border-box;
   margin-top: 0.53333rem;
+  border: 1px solid transparent;
 }
 
 section .cons {

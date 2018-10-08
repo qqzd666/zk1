@@ -46,6 +46,7 @@ section {
         padding: pxTorem(15px);
         @include sizing;
         margin-top: pxTorem(20px);
+        border: 1px solid transparent;
     }
     .cons {
         border: 1px solid brown;
